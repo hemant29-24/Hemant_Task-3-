@@ -1,0 +1,49 @@
+html, body{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;;
+}
+body{
+    background-color: lightgray;
+    display:flex;
+    flex-direction: column;
+}
+.container{
+    background-color: coral;
+    border: 5px solid black;
+    padding: 20px;
+    flex:1;
+}
+.head{
+    color: darkblue;
+}
+#bglime{
+    font-size:xx-large;
+    background-color: lime;
+}
+#bglime span{
+    color: red;
+}
+p{
+    font-size: large;
+    color: white;
+}
+p span{
+    font-size: x-large;
+    color: black;
+}
+#para{
+    color:green;
+}
+ul li:nth-child(1) a {
+    background: yellow;
+}
+ul li:nth-child(2) a {
+    background-color: blue;
+}
+ol li:nth-child(2){
+    color: blue;
+}
+ol li:nth-child(3){
+    color: red;
+}
